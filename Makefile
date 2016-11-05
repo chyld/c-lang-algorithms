@@ -7,3 +7,4 @@ clean:
 
 all: clean
 	gcc $(CFLAGS) src/01-binary-search.c -o dst/01-binary-search
+	gcc $(CFLAGS) src/02-linked-list.c -o dst/02-linked-list
